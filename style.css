@@ -1,0 +1,48 @@
+body {
+  background: linear-gradient(to right, white, #00fdff);
+  animation: gradient 5s infinite;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+h1 {
+  text-align: center;
+  font-family: Comic Sans MS;
+  animation: color-change 3.5s infinite;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  50% { color: orange; }
+  100% { color: blue; }
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+li {
+  font-family: Comic Sans MS;
+  font-size: 25px;
+  color: #E34234;
+}
+
+a {
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.link-container {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+}
