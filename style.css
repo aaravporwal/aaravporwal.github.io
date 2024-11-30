@@ -112,3 +112,7 @@ footer {
 .link-container a {
   animation: fadeIn 1s ease-out;
 }
+p:hover {
+  color: #2980B9;
+  transform: scale(1.0);
+}
