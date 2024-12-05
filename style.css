@@ -41,6 +41,23 @@ p {
   color: #555555; 
 }
 
+#typing-h4 {
+ color: #2980B9;
+}
+
+.h4-container {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center; 
+}
+
+h4 {
+  color: #34495E;
+  margin: 2px; 
+  padding: 0; 
+}
+
+
 ul {
   list-style-type: disc;
   padding-left: 20px;
