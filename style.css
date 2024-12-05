@@ -1,7 +1,3 @@
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   background: linear-gradient(to right, white, #00fdff);
   animation: gradient 5s infinite;
@@ -112,7 +108,52 @@ footer {
 .link-container a {
   animation: fadeIn 1s ease-out;
 }
+
 p:hover {
   color: #2980B9;
   transform: scale(1.0);
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  p {
+    font-size: 18px;
+    margin: 10px;
+  }
+  .link-container {
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 10px;
+    bottom: 60px;
+  }
+  .link-container a {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  footer {
+    font-size: 14px;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  a {
+    font-size: 18px;
+  }
 }
