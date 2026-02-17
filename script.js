@@ -1,10 +1,10 @@
 const texts = [
     "Playing Basketball!",
-    "Building Websites",
-    "Travelling",
-    "Sketching",
-    "Photography",
-    "Debating"
+    "Building Websites.",
+    "Travelling.",
+    "Sketching.",
+    "Photography.",
+    "Watching Movies and TV Series."
   ];
   
   let currentTextIndex = 0;
